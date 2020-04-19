@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/double_and_half_space" />
+            <padding android:bottom="@dimen/single_and_half_space" android:left="@dimen/double_space" android:right="@dimen/double_space" android:top="@dimen/single_and_half_space" />
+            <stroke android:width="2dp" android:color="@color/buttonBlueDark" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/double_and_half_space" />
+            <padding android:bottom="@dimen/single_and_half_space" android:left="@dimen/double_space" android:right="@dimen/double_space" android:top="@dimen/single_and_half_space" />
+            <stroke android:width="2dp" android:color="@color/buttonBlueDark" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/double_and_half_space" />
+            <padding android:bottom="@dimen/single_and_half_space" android:left="@dimen/double_space" android:right="@dimen/double_space" android:top="@dimen/single_and_half_space" />
+            <stroke android:width="2dp" android:color="@color/buttonBlueLite" />
+        </shape>
+    </item>
+</selector>

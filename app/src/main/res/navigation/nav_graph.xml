@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/fragGallery">
+
+    <fragment
+        android:id="@+id/fragLogin"
+        android:name="com.selfieburst.app.auth.LoginFragment"
+        android:label="frag_login"
+        tools:layout="@layout/frag_login" />
+
+    <fragment
+        android:id="@+id/fragGallery"
+        android:name="com.selfieburst.app.gallery.GalleryFragment"
+        android:label="frag_gallery"
+        tools:layout="@layout/frag_gallery" >
+        <action
+            android:id="@+id/action_fragGallery_to_fragLogin"
+            app:destination="@id/fragLogin" />
+        <action
+            android:id="@+id/action_fragGallery_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.selfieburst.app.camera.CameraFragment"
+        android:label="CameraFragment" />
+
+</navigation>

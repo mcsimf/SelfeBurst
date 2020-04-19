@@ -1,0 +1,2 @@
+rootProject.name='SelfieBurst'
+include ':app'

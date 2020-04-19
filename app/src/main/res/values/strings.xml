@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SelfieBurst</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_login">Login</string>
+    <string name="lbl_cam">We are now taking a picture of You</string>
+    <string name="msg_no_front_cam">Device have no face cam. Muahaha.</string>
+    <string name="msg_login_error">Login failed. Try again.</string>
+    <string name="hint_login">Login</string>
+    <string name="hint_password">Password</string>
+</resources>
